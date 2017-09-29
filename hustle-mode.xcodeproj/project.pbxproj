@@ -12,6 +12,8 @@
 		2D0339061F7E8F2E00FDFC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0339041F7E8F2E00FDFC97 /* Main.storyboard */; };
 		2D0339081F7E8F2E00FDFC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0339071F7E8F2E00FDFC97 /* Assets.xcassets */; };
 		2D03390B1F7E8F2E00FDFC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0339091F7E8F2E00FDFC97 /* LaunchScreen.storyboard */; };
+		2D0339141F7E9E6100FDFC97 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D0339131F7E9E6100FDFC97 /* test.txt */; };
+		2D0339171F7E9EF500FDFC97 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D0339161F7E9EF500FDFC97 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2D0339071F7E8F2E00FDFC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D03390A1F7E8F2E00FDFC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D03390C1F7E8F2E00FDFC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0339131F7E9E6100FDFC97 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		2D0339161F7E9EF500FDFC97 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				2D0339001F7E8F2E00FDFC97 /* AppDelegate.swift */,
 				2D0339021F7E8F2E00FDFC97 /* ViewController.swift */,
+				2D0339161F7E9EF500FDFC97 /* hustle-on.wav */,
 				2D0339041F7E8F2E00FDFC97 /* Main.storyboard */,
 				2D0339071F7E8F2E00FDFC97 /* Assets.xcassets */,
 				2D0339091F7E8F2E00FDFC97 /* LaunchScreen.storyboard */,
 				2D03390C1F7E8F2E00FDFC97 /* Info.plist */,
+				2D0339131F7E9E6100FDFC97 /* test.txt */,
 			);
 			path = "hustle-mode";
 			sourceTree = "<group>";
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0339171F7E9EF500FDFC97 /* hustle-on.wav in Resources */,
 				2D03390B1F7E8F2E00FDFC97 /* LaunchScreen.storyboard in Resources */,
 				2D0339081F7E8F2E00FDFC97 /* Assets.xcassets in Resources */,
+				2D0339141F7E9E6100FDFC97 /* test.txt in Resources */,
 				2D0339061F7E8F2E00FDFC97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
